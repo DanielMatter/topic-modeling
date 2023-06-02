@@ -1,3 +1,9 @@
+# Custom .gitignore
+data/articles
+data/headlines
+
+
+# Below here follows the python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
