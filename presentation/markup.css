@@ -1,0 +1,11 @@
+.markup {
+    font-size: 24px;
+}
+
+.markup .preview p {
+    font-size: 32px;
+}
+
+* {
+    border: 2px solid red;
+}
