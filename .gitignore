@@ -1,6 +1,7 @@
 # Custom .gitignore
 data/articles
 data/headlines
+data/lda-models
 
 
 # Below here follows the python template
