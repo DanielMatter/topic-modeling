@@ -1,1 +1,6 @@
 datasets
+sklearn
+matplotlib
+numpy
+bertopic
+gensim
