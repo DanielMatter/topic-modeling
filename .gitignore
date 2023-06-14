@@ -2,6 +2,7 @@
 data/articles
 data/headlines
 data/lda-models
+data/bert-models
 
 
 # Below here follows the python template
