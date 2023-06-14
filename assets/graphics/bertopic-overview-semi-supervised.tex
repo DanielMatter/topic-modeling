@@ -10,7 +10,7 @@
   \draw (0,3) rectangle (4,4) node[pos=.5] {amet consectetur};
   \draw (0,4) rectangle (4,5) node[pos=.5] {adipisicing elit};
 
-  \draw (10, -2) rectangle (14,-1) node[pos=.5] {Embeddings};
+  \draw (10, -2) rectangle (14,-1) node[pos=.5, align=center] {Sparsly Annotated\\Embeddings};
 
   \draw[->, gray] (12, 3) -- (12, 4);
   \draw[->, gray] (12, 3) -- (13, 4);
@@ -19,23 +19,23 @@
   \draw[->, gray] (12, 3) -- (13, 2);
   \draw[->, gray] (12, 3) -- (12, 2);
 
-  \fill (2+8, 4) circle (.15) node {};
-  \fill (2+8.5, 5) circle (.15) node {};
+  \fill[red] (2+8, 4) circle (.15) node {};
+  \fill[red] (2+8.5, 5) circle (.15) node {};
   \fill (2+7, 5) circle (.15) node {};
   \fill (2+7.5, 3) circle (.15) node {};
   \fill (2+8.155, 3.5) circle (.15) node {};
-  \fill (2+8.5, 2.5) circle (.15) node {};
-  \fill (2+7.5, 1) circle (.15) node {};
+  \fill[blue] (2+8.5, 2.5) circle (.15) node {};
+  \fill[blue] (2+7.5, 1) circle (.15) node {};
   \fill (2+8.155, 1.5) circle (.15) node {};
 
   \fill (6+7, 2.5) circle (.15) node {};
   \fill (6+6.5, 5) circle (.15) node {};
-  \fill (6+7.5, 4) circle (.15) node {};
+  \fill[red] (6+7.5, 4) circle (.15) node {};
   \fill (6+8, 3) circle (.15) node {};
   \fill (6+8, 3.5) circle (.15) node {};
   \fill (6+8.5, 2.5) circle (.15) node {};
-  \fill (6+6.5, 2) circle (.15) node {};
-  \fill (6+7.5, 1) circle (.15) node {};
+  \fill[blue] (6+6.5, 2) circle (.15) node {};
+  \fill[blue] (6+7.5, 1) circle (.15) node {};
 
   \draw (20, -2) rectangle (24,-1) node[pos=.5] {Projected Embeddings};
   \draw[->, gray] (21, 3) -- (21, 4);
@@ -44,8 +44,8 @@
   \fill[] (12+8.5, 4) circle (.15) node {};
   \fill[] (12+8.5, 5) circle (.15) node {};
   \fill[] (12+7.5, 5) circle (.15) node {};
-  \fill[] (12+7.5, 3) circle (.15) node {};
-  \fill[] (12+8.155, 3.5) circle (.15) node {};
+  \fill[] (12+7.5, 2) circle (.15) node {};
+  \fill[] (12+8, 2.5) circle (.15) node {};
   \fill[] (12+8.5, 2.5) circle (.15) node {};
   \fill[] (12+7.5, 1) circle (.15) node {};
   \fill[] (12+8.155, 1.5) circle (.15) node {};
@@ -53,9 +53,9 @@
   \fill[] (16+7.5, 2.5) circle (.15) node {};
   \fill[] (16+6.5, 5) circle (.15) node {};
   \fill[] (16+7.5, 4) circle (.15) node {};
-  \fill[] (16+7.5, 3) circle (.15) node {};
-  \fill[] (16+6.5, 3.5) circle (.15) node {};
-  \fill[] (16+8.5, 2.5) circle (.15) node {};
+  \fill[] (16+7.5, 2) circle (.15) node {};
+  \fill[] (16+5.5, 2.5) circle (.15) node {};
+  \fill[] (16+8.5, 1.5) circle (.15) node {};
   \fill[] (16+6.5, 2) circle (.15) node {};
   \fill[] (16+7.5, 1) circle (.15) node {};
 
@@ -63,26 +63,26 @@
   \draw[->, gray] (31, 3) -- (31, 4);
   \draw[->, gray] (31, 3) -- (32, 3);
 
-  \fill[color=red] (22+8.5, 4) circle (.15) node {};
-  \fill[color=red] (22+8.5, 5) circle (.15) node {};
-  \fill[color=red] (22+7.5, 5) circle (.15) node {};
-  \fill[color=red] (22+7.5, 3) circle (.15) node {};
-  \fill[color=red] (22+8.155, 3.5) circle (.15) node {};
-  \fill[color=red] (22+8.5, 2.5) circle (.15) node {};
-  \fill[color=red] (22+7.5, 1) circle (.15) node {};
-  \fill[color=red] (22+8.155, 1.5) circle (.15) node {};
+  \fill[red] (22+8.5, 4) circle (.15) node {};
+  \fill[red] (22+8.5, 5) circle (.15) node {};
+  \fill[red] (22+7.5, 5) circle (.15) node {};
+  \fill[blue] (22+7.5, 2) circle (.15) node {};
+  \fill[blue] (22+8, 2.5) circle (.15) node {};
+  \fill[blue] (22+8.5, 2.5) circle (.15) node {};
+  \fill[blue] (22+7.5, 1) circle (.15) node {};
+  \fill[blue] (22+8.155, 1.5) circle (.15) node {};
 
-  \fill[color=blue] (26+7.5, 2.5) circle (.15) node {};
-  \fill[color=blue] (26+6.5, 5) circle (.15) node {};
-  \fill[color=blue] (26+7.5, 4) circle (.15) node {};
-  \fill[color=blue] (26+7.5, 3) circle (.15) node {};
-  \fill[color=blue] (26+6.5, 3.5) circle (.15) node {};
-  \fill[color=blue] (26+8.5, 2.5) circle (.15) node {};
-  \fill[color=blue] (26+6.5, 2) circle (.15) node {};
-  \fill[color=blue] (26+7.5, 1) circle (.15) node {};
+  \fill[blue] (26+7.5, 2.5) circle (.15) node {};
+  \fill[red] (26+6.5, 5) circle (.15) node {};
+  \fill[red] (26+7.5, 4) circle (.15) node {};
+  \fill[blue] (26+7.5, 2) circle (.15) node {};
+  \fill[blue] (26+5.5, 2.5) circle (.15) node {};
+  \fill[blue] (26+8.5, 1.5) circle (.15) node {};
+  \fill[blue] (26+6.5, 2) circle (.15) node {};
+  \fill[blue] (26+7.5, 1) circle (.15) node {};
 
   \draw[-{Latex[width=3mm]}] (5, 3) -- (8, 3) node[pos=.5, anchor=south, align=center] {Embedding\\Model};
-  \draw[-{Latex[width=3mm]}] (15, 3) -- (18, 3) node[pos=.5, anchor=south, align=center] {Dimensionality\\Reduction};
+  \draw[-{Latex[width=3mm]}] (15, 3) -- (18, 3) node[pos=.5, anchor=south, align=center] {\textbf{Informed}\\Dimensionality\\Reduction};
   \draw[-{Latex[width=3mm]}] (25, 3) -- (28, 3) node[pos=.5, anchor=south] {Clustering};
 
 \end{tikzpicture}
