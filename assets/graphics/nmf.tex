@@ -1,0 +1,36 @@
+\documentclass[crop,tikz]{standalone}
+\tikzstyle{bag} = [align=center]
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+
+\begin{document}
+\begin{tikzpicture}[grow=right]
+
+    \foreach \x in {0,...,7}
+        \foreach \y in {0,...,5} {
+            \draw (\x,0) -- (\x,\y);
+            \draw (0,\y) -- (\x,\y);
+        }
+
+    \node at (3.5,-1) {\Large Document-Term Matrix $X$};
+    \node at (9.5,2.5) {\Huge $\approx$};
+
+    \foreach \x in {2,...,5}
+        \foreach \y in {0,...,5} {
+                \draw (14,\y) -- (12+\x,\y);
+                \draw (12+\x,0) -- (12+\x,\y);
+        }
+
+    \node at (15.5,-1) {\Large Topic-Word Matrix $W$};
+    \node at (19.5,2.5) {\Huge $\times$};
+
+    \foreach \x in {0,...,7}
+        \foreach \y in {1,...,4} {
+                \draw (22,\y) -- (22+\x,\y);
+                \draw (22+\x,1) -- (22+\x,\y);
+        }
+    
+    \node at (25.5,-1) {\Large Document-Topic Matrix $H$};
+
+\end{tikzpicture}
+\end{document}
