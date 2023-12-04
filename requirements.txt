@@ -1,11 +1,10 @@
 datasets
-sklearn
+scikit-learn
 matplotlib
 numpy
 bertopic
 gensim
 safetensors
-json
 spacy
 pyLDAvis
 tqdm
